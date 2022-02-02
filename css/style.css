@@ -2,14 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: sans-serif; 
 }
 
 header{
     height: 10vh;
 }
-
-
 
 .text-item{
     font-size: 1px;
@@ -24,15 +22,12 @@ height: 100%;
 .btn{
     background-color: gray;
     padding: .2em;
-    border-radius: .5em;
-}
-
-.fa-th{
-    color: white;
+    border-radius: .6em;
 }
 
 .fa-arrows-alt{
     transform: rotate(45deg);
+    padding: .2em;
 }
 
 .speaker {
@@ -40,8 +35,8 @@ height: 100%;
 }
 
 .arrow4{
-margin-right: .5em;
-color: white;
+    margin-right: .1em;
+    color: white;
 }
 
 .position{
@@ -57,7 +52,7 @@ color: white;
     align-items:center;
 }
 
-/* sezione main- inserimento foco in colonna con flexbox*/
+/* sezione main- inserimento foto in colonna con flexbox*/
 
 main{
     height: 80vh;
@@ -75,7 +70,6 @@ main{
 
 .asd{
     position: relative;
-   
 }
 
 .fa-microphone-slash{
@@ -84,7 +78,6 @@ main{
     left: 0;
     bottom: 6px; 
     background-color: lightgray;
-   
 }
 
 .op{
@@ -95,30 +88,22 @@ main{
     font-size: xx-small;
 }
 
+/* footer tre div --2 liste */
 footer{
     height: 10vh;
-    background-color:rgb(47, 46, 46); 
-    
+    background-color:rgb(47, 46, 46);
 }
 
 
 .color{
     color: white;
-    padding-top: 1em;
     display: flex;
     justify-content: space-between;
-    margin-left: 1em;
-    margin-right: 1em;
-
+    align-items: center; 
 }
 
-.fa-microphone{
-    text-align: center
-    
-}
 
 .centatura{
-    
     color:white ;
     font-size: 25px;
 }
@@ -128,10 +113,21 @@ footer{
     font-size: 1px;
 }
 
+.share{
+    color: green;
+}
+
 ul{
     list-style: none;
     display: flex;
+    text-align: center;
+    vertical-align: middle;
 }
+
+.ul-center{
+    justify-content:space-between ;
+}
+
 
 a{
     color: white;
@@ -139,5 +135,17 @@ a{
 }
 
 .text-a{
-    font-size: xx-small; 
+    font-size: .1rem; 
+    padding-left: .4rem;
+}
+
+.end{
+    color: red;
+    font-size: .1rem;
+    line-height: 5;
+}
+
+.box-end{
+    background-color: rgb(97, 91, 91);
+    height: 10vh;
 }
