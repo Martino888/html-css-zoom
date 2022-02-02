@@ -2,6 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    height: 10vh;
+}
+
+
+
+.text-item{
+    font-size: 1px;
 }
 
 .nav-up{
@@ -25,9 +36,7 @@ height: 100%;
 }
 
 .speaker {
-    
     color: white;
-    
 }
 
 .arrow4{
@@ -62,18 +71,73 @@ main{
     justify-content: space-around;
     height: 100%;
     padding: 5em ;
+}
 
+.asd{
+    position: relative;
+   
+}
+
+.fa-microphone-slash{
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 6px; 
+    background-color: lightgray;
+   
+}
+
+.op{
+    opacity: 90%; 
+}
+
+.pinco-size{
+    font-size: xx-small;
 }
 
 footer{
     height: 10vh;
-    background-color: black;
+    background-color:rgb(47, 46, 46); 
+    
 }
 
-header{
-    height: 10vh;
+
+.color{
+    color: white;
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+
 }
 
 .fa-microphone{
+    text-align: center
+    
+}
+
+.centatura{
+    
     color:white ;
+    font-size: 25px;
+}
+
+.fa-angle-up{
+    padding: 14em;
+    font-size: 1px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.text-a{
+    font-size: xx-small; 
 }
