@@ -19,7 +19,7 @@ border-radius: .5em;
 }
 
 .position{
-    width: 100%;
+    
     justify-content: end;
     align-items: center;
 }
@@ -28,4 +28,17 @@ border-radius: .5em;
     width: 1.5em;
     height: 1.5em;
     justify-content:center;
+}
+
+/* sezione main- inserimento foco in colonna con flexbox*/
+
+main{
+    background-color: black;
+}
+.col{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
 }
