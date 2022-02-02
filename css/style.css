@@ -3,3 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.nav-up{
+display: flex;
+background-color: black;
+}
+
+.speaker {
+    border-radius: .5em;
+}
+
+.arrow4{
+margin-right: .5em;
+border-radius: .5em;
+}
+
+.position{
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+}
+
+.png-size{
+    width: 1.5em;
+    height: 1.5em;
+    justify-content:center;
+}
