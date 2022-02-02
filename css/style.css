@@ -7,32 +7,52 @@
 .nav-up{
 display: flex;
 background-color: black;
+height: 100%;
+}
+
+.btn{
+    background-color: gray;
+    padding: .2em;
+    border-radius: .5em;
+}
+
+.fa-th{
+    color: white;
+}
+
+.fa-arrows-alt{
+    transform: rotate(45deg);
 }
 
 .speaker {
-    border-radius: .5em;
+    
+    color: white;
+    
 }
 
 .arrow4{
 margin-right: .5em;
-border-radius: .5em;
+color: white;
 }
 
 .position{
-    
     justify-content: end;
     align-items: center;
+    padding-bottom: 1em;
+    padding-top: .1em;
 }
 
 .png-size{
     width: 1.5em;
     height: 1.5em;
-    justify-content:center;
+    align-items:center;
 }
 
 /* sezione main- inserimento foco in colonna con flexbox*/
 
 main{
+    height: 80vh;
+    overflow-y:auto;
     background-color: black;
 }
 .col{
@@ -40,5 +60,20 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    height: 100%;
+    padding: 5em ;
 
+}
+
+footer{
+    height: 10vh;
+    background-color: black;
+}
+
+header{
+    height: 10vh;
+}
+
+.fa-microphone{
+    color:white ;
 }
